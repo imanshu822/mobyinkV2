@@ -30,7 +30,7 @@ const Content = ({ data, id }) => {
         >
           <Stack width={"100%"} margin={"0 auto"}>
             <Typography color={"blue"}>
-              {data.BlogContent.aboutCompany}
+              {data?.BlogContent?.aboutCompany}
             </Typography>
             <Typography
               fontSize={{
@@ -40,7 +40,7 @@ const Content = ({ data, id }) => {
               textAlign={"left"}
               color={"gray"}
             >
-              {data.BlogContent.about}
+              {data?.BlogContent?.about}
             </Typography>
           </Stack>
 
@@ -59,7 +59,7 @@ const Content = ({ data, id }) => {
               }}
             >
               <Stack gap={2}>
-                {data.BlogContent.head1 && (
+                {data?.BlogContent?.head1 && (
                   <>
                     <Typography
                       fontSize={{
@@ -68,7 +68,7 @@ const Content = ({ data, id }) => {
                       }}
                       fontWeight={"bold"}
                     >
-                      {data.BlogContent.head1.title1}
+                      {data?.BlogContent?.head1.title1}
                     </Typography>
                     <Stack gap={1}>
                       <Typography
@@ -84,9 +84,9 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head1.bold1} {` `}
+                          {data?.BlogContent?.head1.bold1} {` `}
                         </span>
-                        {data.BlogContent.head1.t1}
+                        {data?.BlogContent?.head1.t1}
                       </Typography>
 
                       <Typography
@@ -102,9 +102,9 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head1.bold2} {` `}
+                          {data?.BlogContent?.head1.bold2} {` `}
                         </span>
-                        {data.BlogContent.head1.t2}
+                        {data?.BlogContent?.head1.t2}
                       </Typography>
 
                       <Typography
@@ -120,15 +120,15 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head1.bold3} {` `}
+                          {data?.BlogContent?.head1.bold3} {` `}
                         </span>
-                        {data.BlogContent.head1.t3}
+                        {data?.BlogContent?.head1.t3}
                       </Typography>
                     </Stack>
                   </>
                 )}
 
-                {data.BlogContent.head2 && (
+                {data?.BlogContent?.head2 && (
                   <>
                     <Typography
                       fontSize={{
@@ -137,7 +137,7 @@ const Content = ({ data, id }) => {
                       }}
                       fontWeight={"bold"}
                     >
-                      {data.BlogContent.head2.title2}
+                      {data?.BlogContent?.head2.title2}
                     </Typography>
                     <Stack gap={1}>
                       <Typography
@@ -153,9 +153,9 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head2.b1} {` `}
+                          {data?.BlogContent?.head2.b1} {` `}
                         </span>
-                        {data.BlogContent.head2.t1}
+                        {data?.BlogContent?.head2.t1}
                       </Typography>
 
                       <Typography
@@ -171,9 +171,9 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head2.bold2} {` `}
+                          {data?.BlogContent?.head2.bold2} {` `}
                         </span>
-                        {data.BlogContent.head2.t2}
+                        {data?.BlogContent?.head2.t2}
                       </Typography>
 
                       <Typography
@@ -189,9 +189,9 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head2.b3} {` `}
+                          {data?.BlogContent?.head2.b3} {` `}
                         </span>
-                        {data.BlogContent.head2.t3}
+                        {data?.BlogContent?.head2.t3}
                       </Typography>
                       <Typography
                         textAlign={"justify"}
@@ -206,16 +206,16 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head2.b4} {` `}
-                          {data.BlogContent.head2.b4} {` `}
+                          {data?.BlogContent?.head2.b4} {` `}
+                          {data?.BlogContent?.head2.b4} {` `}
                         </span>
-                        {data.BlogContent.head2.t4}
+                        {data?.BlogContent?.head2.t4}
                       </Typography>
                     </Stack>
                   </>
                 )}
 
-                {data.BlogContent.head3 && (
+                {data?.BlogContent?.head3 && (
                   <>
                     <Typography
                       fontSize={{
@@ -224,7 +224,7 @@ const Content = ({ data, id }) => {
                       }}
                       fontWeight={"bold"}
                     >
-                      {data.BlogContent.head3.title3}
+                      {data?.BlogContent?.head3.title3}
                     </Typography>
                     <Stack gap={1}>
                       <Typography
@@ -240,9 +240,9 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head3.bold1} {` `}
+                          {data?.BlogContent?.head3.bold1} {` `}
                         </span>
-                        {data.BlogContent.head3.t1}
+                        {data?.BlogContent?.head3.t1}
                       </Typography>
 
                       <Typography
@@ -258,9 +258,9 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head3.bold2} {` `}
+                          {data?.BlogContent?.head3.bold2} {` `}
                         </span>
-                        {data.BlogContent.head3.t2}
+                        {data?.BlogContent?.head3.t2}
                       </Typography>
 
                       <Typography
@@ -276,14 +276,14 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head3.bold3} {` `}
+                          {data?.BlogContent?.head3.bold3} {` `}
                         </span>
-                        {data.BlogContent.head3.t3}
+                        {data?.BlogContent?.head3.t3}
                       </Typography>
                     </Stack>
                   </>
                 )}
-                {data.BlogContent.head4 && (
+                {data?.BlogContent?.head4 && (
                   <>
                     <Typography
                       fontSize={{
@@ -292,7 +292,7 @@ const Content = ({ data, id }) => {
                       }}
                       fontWeight={"bold"}
                     >
-                      {data.BlogContent.head4.title4}
+                      {data?.BlogContent?.head4.title4}
                     </Typography>
                     <Stack gap={1}>
                       <Typography
@@ -308,9 +308,9 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head4.bold1} {` `}
+                          {data?.BlogContent?.head4.bold1} {` `}
                         </span>
-                        {data.BlogContent.head4.t1}
+                        {data?.BlogContent?.head4.t1}
                       </Typography>
 
                       <Typography
@@ -326,9 +326,9 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head4.bold2} {` `}
+                          {data?.BlogContent?.head4.bold2} {` `}
                         </span>
-                        {data.BlogContent.head4.t2}
+                        {data?.BlogContent?.head4.t2}
                       </Typography>
 
                       <Typography
@@ -344,14 +344,14 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head4.bold3} {` `}
+                          {data?.BlogContent?.head4.bold3} {` `}
                         </span>
-                        {data.BlogContent.head4.t3}
+                        {data?.BlogContent?.head4.t3}
                       </Typography>
                     </Stack>
                   </>
                 )}
-                {data.BlogContent.head5 && (
+                {data?.BlogContent?.head5 && (
                   <>
                     <Typography
                       fontSize={{
@@ -360,7 +360,7 @@ const Content = ({ data, id }) => {
                       }}
                       fontWeight={"bold"}
                     >
-                      {data.BlogContent.head5.title5}
+                      {data?.BlogContent?.head5.title5}
                     </Typography>
                     <Stack gap={1}>
                       <Typography
@@ -376,9 +376,9 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head5.bold1} {` `}
+                          {data?.BlogContent?.head5.bold1} {` `}
                         </span>
-                        {data.BlogContent.head5.t1}
+                        {data?.BlogContent?.head5.t1}
                       </Typography>
 
                       <Typography
@@ -394,9 +394,9 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head5.bold2} {` `}
+                          {data?.BlogContent?.head5.bold2} {` `}
                         </span>
-                        {data.BlogContent.head5.t2}
+                        {data?.BlogContent?.head5.t2}
                       </Typography>
 
                       <Typography
@@ -412,21 +412,21 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.head5.bold3} {` `}
+                          {data?.BlogContent?.head5.bold3} {` `}
                         </span>
-                        {data.BlogContent.head5.t3}
+                        {data?.BlogContent?.head5.t3}
                       </Typography>
                     </Stack>
                   </>
                 )}
               </Stack>
 
-              {data.BlogContent.H1 && (
+              {data?.BlogContent?.H1 && (
                 <Typography variant="h4" fontWeight={"bold"}>
-                  {data.BlogContent.H1}
+                  {data?.BlogContent?.H1}
                 </Typography>
               )}
-              {data.BlogContent.P1 && (
+              {data?.BlogContent?.P1 && (
                 <Typography color={"gray"} textAlign={"justify"}>
                   <span
                     style={{
@@ -434,16 +434,16 @@ const Content = ({ data, id }) => {
                       color: "black",
                     }}
                   >
-                    {data.BlogContent.P1.slice(0, 1)}
+                    {data?.BlogContent?.P1.slice(0, 1)}
                   </span>
                   <span style={{ fontSize: "1em" }}>
-                    {data.BlogContent.P1.slice(1)}
+                    {data?.BlogContent?.P1.slice(1)}
                   </span>
                 </Typography>
               )}
-              {data.BlogContent.P2 && (
+              {data?.BlogContent?.P2 && (
                 <Typography color={"gray"} textAlign={"justify"}>
-                  {data.BlogContent.P2}
+                  {data?.BlogContent?.P2}
                 </Typography>
               )}
             </Stack>
@@ -458,7 +458,7 @@ const Content = ({ data, id }) => {
             >
               <Image
                 component="img"
-                src={data.img}
+                src={data?.img}
                 width={"1"}
                 height={"1"}
                 layout={"responsive"}
@@ -479,7 +479,7 @@ const Content = ({ data, id }) => {
               lg: 3,
             }}
           >
-            {data.BlogContent.Result ? (
+            {data?.BlogContent?.Result ? (
               <>
                 <Stack>
                   <Stack>
@@ -490,11 +490,11 @@ const Content = ({ data, id }) => {
                         lg: "36px",
                       }}
                     >
-                      {data.BlogContent.Result.title}
+                      {data?.BlogContent?.Result.title}
                     </Typography>
                   </Stack>
                   <Stack gap={2}>
-                    {data.BlogContent.Result.t0 && (
+                    {data?.BlogContent?.Result.t0 && (
                       <Typography
                         color={"gray"}
                         fontSize={{
@@ -508,12 +508,12 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.Result.b0} {` `}
+                          {data?.BlogContent?.Result.b0} {` `}
                         </span>
-                        {data.BlogContent.Result.t0}
+                        {data?.BlogContent?.Result.t0}
                       </Typography>
                     )}
-                    {data.BlogContent.Result.t1 && (
+                    {data?.BlogContent?.Result.t1 && (
                       <Typography
                         color={"gray"}
                         fontSize={{
@@ -527,13 +527,13 @@ const Content = ({ data, id }) => {
                             fontWeight: "bold",
                           }}
                         >
-                          {data.BlogContent.Result.b1} {` `}
+                          {data?.BlogContent?.Result.b1} {` `}
                         </span>
-                        {data.BlogContent.Result.t1}
+                        {data?.BlogContent?.Result.t1}
                       </Typography>
                     )}
 
-                    {data.BlogContent.Result.t2 && (
+                    {data?.BlogContent?.Result.t2 && (
                       <Stack>
                         <Typography
                           color={"gray"}
@@ -548,14 +548,14 @@ const Content = ({ data, id }) => {
                               fontWeight: "bold",
                             }}
                           >
-                            {data.BlogContent.Result.b2} {` `}
+                            {data?.BlogContent?.Result.b2} {` `}
                           </span>
-                          {data.BlogContent.Result.t2}
+                          {data?.BlogContent?.Result.t2}
                         </Typography>
                       </Stack>
                     )}
 
-                    {data.BlogContent.Result.t3 && (
+                    {data?.BlogContent?.Result.t3 && (
                       <Stack>
                         <Typography
                           color={"gray"}
@@ -570,14 +570,14 @@ const Content = ({ data, id }) => {
                               fontWeight: "bold",
                             }}
                           >
-                            {data.BlogContent.Result.b3} {` `}
+                            {data?.BlogContent?.Result.b3} {` `}
                           </span>
-                          {data.BlogContent.Result.t3}
+                          {data?.BlogContent?.Result.t3}
                         </Typography>
                       </Stack>
                     )}
 
-                    {data.BlogContent.Result.t4 && (
+                    {data?.BlogContent?.Result.t4 && (
                       <Stack>
                         <Typography
                           color={"gray"}
@@ -592,9 +592,9 @@ const Content = ({ data, id }) => {
                               fontWeight: "bold",
                             }}
                           >
-                            {data.BlogContent.Result.b4} {` `}
+                            {data?.BlogContent?.Result.b4} {` `}
                           </span>
-                          {data.BlogContent.Result.t4}
+                          {data?.BlogContent?.Result.t4}
                         </Typography>
                       </Stack>
                     )}
@@ -607,33 +607,33 @@ const Content = ({ data, id }) => {
                 {/* first  */}
                 <Stack gap={2}>
                   <Typography textAlign={"justify"} fontWeight={"bold"}>
-                    {data.BlogContent.q1}
+                    {data?.BlogContent?.q1}
                   </Typography>
 
                   <Stack gap={2}>
-                    {data.BlogContent.a1.p1 && (
+                    {data?.BlogContent?.a1.p1 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a1.p1}
+                        {data?.BlogContent?.a1.p1}
                       </Typography>
                     )}
-                    {data.BlogContent.a1.p2 && (
+                    {data?.BlogContent?.a1.p2 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a1.p2}
+                        {data?.BlogContent?.a1.p2}
                       </Typography>
                     )}
-                    {data.BlogContent.a1.p3 && (
+                    {data?.BlogContent?.a1.p3 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a1.p3}
+                        {data?.BlogContent?.a1.p3}
                       </Typography>
                     )}
-                    {data.BlogContent.a1.p4 && (
+                    {data?.BlogContent?.a1.p4 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a1.p4}
+                        {data?.BlogContent?.a1.p4}
                       </Typography>
                     )}
-                    {data.BlogContent.a1.p5 && (
+                    {data?.BlogContent?.a1.p5 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a1.p5}
+                        {data?.BlogContent?.a1.p5}
                       </Typography>
                     )}
                   </Stack>
@@ -641,32 +641,32 @@ const Content = ({ data, id }) => {
                 {/* second */}
                 <Stack gap={2}>
                   <Typography textAlign={"justify"} fontWeight={"bold"}>
-                    {data.BlogContent.q2}
+                    {data?.BlogContent?.q2}
                   </Typography>
                   <Stack gap={2}>
-                    {data.BlogContent.a2.p1 && (
+                    {data?.BlogContent?.a2.p1 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a2.p1}
+                        {data?.BlogContent?.a2.p1}
                       </Typography>
                     )}
-                    {data.BlogContent.a2.p2 && (
+                    {data?.BlogContent?.a2.p2 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a2.p2}
+                        {data?.BlogContent?.a2.p2}
                       </Typography>
                     )}
-                    {data.BlogContent.a2.p3 && (
+                    {data?.BlogContent?.a2.p3 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a2.p3}
+                        {data?.BlogContent?.a2.p3}
                       </Typography>
                     )}
-                    {data.BlogContent.a2.p4 && (
+                    {data?.BlogContent?.a2.p4 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a2.p4}
+                        {data?.BlogContent?.a2.p4}
                       </Typography>
                     )}
-                    {data.BlogContent.a2.p5 && (
+                    {data?.BlogContent?.a2.p5 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a2.p5}
+                        {data?.BlogContent?.a2.p5}
                       </Typography>
                     )}
                   </Stack>
@@ -674,33 +674,33 @@ const Content = ({ data, id }) => {
                 {/* third */}
                 <Stack gap={2}>
                   <Typography textAlign={"justify"} fontWeight={"bold"}>
-                    {data.BlogContent.q3}
+                    {data?.BlogContent?.q3}
                   </Typography>
                   <Stack gap={2}>
                     <Stack gap={2}>
-                      {data.BlogContent.a3.p1 && (
+                      {data?.BlogContent?.a3.p1 && (
                         <Typography color={"gray"} textAlign={"justify"}>
-                          {data.BlogContent.a3.p1}
+                          {data?.BlogContent?.a3.p1}
                         </Typography>
                       )}
-                      {data.BlogContent.a3.p2 && (
+                      {data?.BlogContent?.a3.p2 && (
                         <Typography color={"gray"} textAlign={"justify"}>
-                          {data.BlogContent.a3.p2}
+                          {data?.BlogContent?.a3.p2}
                         </Typography>
                       )}
-                      {data.BlogContent.a3.p3 && (
+                      {data?.BlogContent?.a3.p3 && (
                         <Typography color={"gray"} textAlign={"justify"}>
-                          {data.BlogContent.a3.p3}
+                          {data?.BlogContent?.a3.p3}
                         </Typography>
                       )}
-                      {data.BlogContent.a3.p4 && (
+                      {data?.BlogContent?.a3.p4 && (
                         <Typography color={"gray"} textAlign={"justify"}>
-                          {data.BlogContent.a3.p4}
+                          {data?.BlogContent?.a3.p4}
                         </Typography>
                       )}
-                      {data.BlogContent.a3.p5 && (
+                      {data?.BlogContent?.a3.p5 && (
                         <Typography color={"gray"} textAlign={"justify"}>
-                          {data.BlogContent.a3.p5}
+                          {data?.BlogContent?.a3.p5}
                         </Typography>
                       )}
                     </Stack>
@@ -709,66 +709,66 @@ const Content = ({ data, id }) => {
                 {/* fourth */}
                 <Stack gap={2}>
                   <Typography textAlign={"justify"} fontWeight={"bold"}>
-                    {data.BlogContent.q4}
+                    {data?.BlogContent?.q4}
                   </Typography>
                   <Stack gap={2}>
-                    {data.BlogContent.a4.p1 && (
+                    {data?.BlogContent?.a4.p1 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a4.p1}
+                        {data?.BlogContent?.a4.p1}
                       </Typography>
                     )}
-                    {data.BlogContent.a4.p2 && (
+                    {data?.BlogContent?.a4.p2 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a4.p2}
+                        {data?.BlogContent?.a4.p2}
                       </Typography>
                     )}
-                    {data.BlogContent.a4.p3 && (
+                    {data?.BlogContent?.a4.p3 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a4.p3}
+                        {data?.BlogContent?.a4.p3}
                       </Typography>
                     )}
-                    {data.BlogContent.a4.p4 && (
+                    {data?.BlogContent?.a4.p4 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a4.p4}
+                        {data?.BlogContent?.a4.p4}
                       </Typography>
                     )}
-                    {data.BlogContent.a4.p5 && (
+                    {data?.BlogContent?.a4.p5 && (
                       <Typography color={"gray"} textAlign={"justify"}>
-                        {data.BlogContent.a4.p5}
+                        {data?.BlogContent?.a4.p5}
                       </Typography>
                     )}
                   </Stack>
                 </Stack>
                 {/* fifth */}
-                {data.BlogContent.q5 && (
+                {data?.BlogContent?.q5 && (
                   <Stack gap={2}>
                     <Typography textAlign={"justify"} fontWeight={"bold"}>
-                      {data.BlogContent.q5}
+                      {data?.BlogContent?.q5}
                     </Typography>
                     <Stack gap={2}>
-                      {data.BlogContent.a5.p1 && (
+                      {data?.BlogContent?.a5.p1 && (
                         <Typography color={"gray"} textAlign={"justify"}>
-                          {data.BlogContent.a5.p1}
+                          {data?.BlogContent?.a5.p1}
                         </Typography>
                       )}
-                      {data.BlogContent.a5.p2 && (
+                      {data?.BlogContent?.a5.p2 && (
                         <Typography color={"gray"} textAlign={"justify"}>
-                          {data.BlogContent.a5.p2}
+                          {data?.BlogContent?.a5.p2}
                         </Typography>
                       )}
-                      {data.BlogContent.a5.p3 && (
+                      {data?.BlogContent?.a5.p3 && (
                         <Typography color={"gray"} textAlign={"justify"}>
-                          {data.BlogContent.a5.p3}
+                          {data?.BlogContent?.a5.p3}
                         </Typography>
                       )}
-                      {data.BlogContent.a5.p4 && (
+                      {data?.BlogContent?.a5.p4 && (
                         <Typography color={"gray"} textAlign={"justify"}>
-                          {data.BlogContent.a5.p4}
+                          {data?.BlogContent?.a5.p4}
                         </Typography>
                       )}
-                      {data.BlogContent.a5.p5 && (
+                      {data?.BlogContent?.a5.p5 && (
                         <Typography color={"gray"} textAlign={"justify"}>
-                          {data.BlogContent.a5.p5}
+                          {data?.BlogContent?.a5.p5}
                         </Typography>
                       )}
                     </Stack>

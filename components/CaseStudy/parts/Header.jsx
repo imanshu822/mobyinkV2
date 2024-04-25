@@ -3,6 +3,7 @@ import React from "react";
 
 import Nav from "../../../utils/Navbar/Nav";
 const Header = ({ data }) => {
+  console.log(data);
   return (
     <Stack bgcolor={"#172063"} height={"300px"}>
       <Nav />
@@ -16,7 +17,7 @@ const Header = ({ data }) => {
               justifyContent={"center"}
               fontWeight={"bold"}
             >
-              {data.BlogContent.heading}
+              {data?.blogContent.heading}
             </Typography>
           </Stack>
         </Stack>

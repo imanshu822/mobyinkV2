@@ -1714,7 +1714,65 @@ const Nav = () => {
               </Stack>
             </Link>
           </Stack>
-
+          <Stack direction={"row"}>
+            <Stack direction={"row"} gap={1}>
+              <Link
+                href={`tel:${phoneNumber}`}
+                style={{
+                  textDecoration: "none",
+                  cursor: "pointer",
+                }}
+                onClick={handleEmailClick}
+              >
+                <Stack
+                  justifyContent={"center"}
+                  alignItems={"center"}
+                  p={1.1}
+                  pt={1.5}
+                >
+                  <EmailIcon
+                    sx={{
+                      color: "white",
+                      "&:hover": {
+                        transform: "scale(1.3)",
+                        transition: "all 0.3s ease",
+                      },
+                    }}
+                  />
+                </Stack>
+              </Link>
+              <Link
+                href={`tel:${phoneNumber}`}
+                style={{
+                  textDecoration: "none",
+                }}
+                onClick={handlePhoneClick}
+              >
+                <Stack
+                  justifyContent={"center"}
+                  alignItems={"center"}
+                  p={1.1}
+                  pt={1.5}
+                >
+                  <PhoneIcon
+                    sx={{
+                      color: "white",
+                      "&:hover": {
+                        transform: "scale(1.3)",
+                        transition: "all 0.3s ease",
+                      },
+                    }}
+                  />
+                </Stack>
+              </Link>
+            </Stack>
+            <Link
+              href={`${item.link}`}
+              style={{
+                textDecoration: "none",
+              }}
+            ></Link>
+          </Stack>
           <Stack
             direction={"row"}
             onClick={handleClick}
