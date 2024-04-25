@@ -28,7 +28,7 @@ export default function CardScroll() {
       ref={container}
       style={{
         position: "relative",
-        marginTop: "50vh",
+        marginTop: "10vh",
       }}
     >
       {projects.map((project, i) => {
