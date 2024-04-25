@@ -85,7 +85,7 @@ const portfolio = [
 
 const links = [
   { to: "", text: "Services" },
-  { to: "/about-us/", text: "About Us" },
+  { to: "/about/", text: "About Us" },
   { to: "/industries/", text: "Industries" },
   { to: "/case-studies/", text: "Case Studies" },
   { to: "/careers/", text: "Career" },
@@ -102,9 +102,7 @@ const socialMediaIcons = [
 ];
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const handleClick = (e) => {
-    window.scrollTo(0, 0, "smooth");
-  };
+  const handleClick = (e) => {};
   return (
     <Stack
       mt={{
@@ -358,7 +356,7 @@ const Footer = () => {
               Resources
             </Stack>
             <Link
-              href="/blog/"
+              href="/blog"
               style={{
                 textDecoration: "none",
                 color: "#55595E",
@@ -380,7 +378,7 @@ const Footer = () => {
               </Typography>
             </Link>
             <Link
-              href="/faq/"
+              href="/Faq"
               style={{
                 textDecoration: "none",
                 color: "#55595E",

@@ -13,7 +13,7 @@ import Footer from "../../utils/Footer";
 import LetsConnect from "./parts/LetsConnect";
 import GoToTop from "../../utils/GoToTop";
 import ScrollingImages from "./parts/ScrollingImages";
-
+import CardScroll from "./parts/CardsScroll";
 const Home = () => {
   return (
     <Stack width={"100%"} height={"100%"} bgcolor={"#F5F7FF"}>
@@ -23,6 +23,7 @@ const Home = () => {
       <ShappingTheFuture />
       <CardSection />
       <SharkTankClients />
+      <CardScroll />
       <ScrollingImages />
       <LatestInsights />
       <LetsConnect />
