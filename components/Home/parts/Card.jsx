@@ -59,7 +59,10 @@ const Card = ({
           </div>
 
           <div className="imageContainer">
-            <motion.div className="inner" style={{ scale: imageScale }}>
+            <motion.div
+              className="inner"
+              style={{ scale: imageScale, opacity: 1 }}
+            >
               <Image fill src={`/assests/${src}`} alt="image" />
             </motion.div>
           </div>

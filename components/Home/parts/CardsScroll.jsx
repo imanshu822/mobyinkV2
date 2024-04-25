@@ -4,6 +4,7 @@ import Card from "./Card";
 import { useScroll } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Lenis from "@studio-freight/lenis";
+import { Stack } from "@mui/system";
 
 export default function CardScroll() {
   const container = useRef(null);

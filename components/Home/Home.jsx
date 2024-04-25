@@ -23,7 +23,17 @@ const Home = () => {
       <ShappingTheFuture />
       <CardSection />
       <SharkTankClients />
-      <CardScroll />
+      <Stack
+        display={{
+          xs: "none",
+          sm: "none",
+          md: "none",
+          lg: "block",
+          xl: "block",
+        }}
+      >
+        <CardScroll />
+      </Stack>
       <ScrollingImages />
       <LatestInsights />
       <LetsConnect />
