@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-
+import { ThemeProvider } from "@mui/material/styles";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -11,6 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/icon.png"></link>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );

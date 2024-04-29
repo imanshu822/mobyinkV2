@@ -1,8 +1,8 @@
 import AppDevelopment from "../../../../components/Services/AppDevelopment/AppDevelopment";
 
 export const metadata = {
-  title: "for home page",
-  description: "home disc",
+  title: "Elevate Your Business with MobyInk App Development Services in India.",
+  description: "Elevate your business with MobyInk's expert app development services in India. Tailored solutions for success in the digital market. ",
 };
 
 export default function seoIndia() {

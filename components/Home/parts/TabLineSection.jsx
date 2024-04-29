@@ -60,6 +60,7 @@ const TabLineSection = () => {
             justifyContent={"center"}
           >
             <Typography
+            variant="h1"
               textAlign={{
                 xs: "center",
                 sm: "center",
@@ -73,6 +74,7 @@ const TabLineSection = () => {
               }}
               fontWeight={"bold"}
               color={"white"}
+              lineHeight={1.4}
             >
               Pioneering The Digital Frontier For Market Leaders
             </Typography>

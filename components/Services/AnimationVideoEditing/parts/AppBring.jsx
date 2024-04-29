@@ -574,7 +574,7 @@ const ParallaxBackground = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [activeIndex]);
 
-  const theme = createTheme({
+  const ththeme = createTheme({
     typography: {
       fontFamily: '"Sintony", sans-serif',
       fontWeight: 300,
