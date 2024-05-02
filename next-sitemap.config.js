@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://mobyink.com",
+  siteUrl: "https://www.mobyink.com",
   generateRobotsTxt: true, // (optional)
   // ...other options
 };
