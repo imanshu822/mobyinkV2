@@ -5,21 +5,22 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "sitemap": "next-sitemap --config next-sitemap.config.js",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@studio-freight/lenis": "^1.0.27",
-    "framer-motion": "^10.16.4",
     "@emotion/cache": "^11.11.0",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.14",
     "@mui/material": "^5.15.15",
     "@mui/material-nextjs": "^5.15.11",
+    "@studio-freight/lenis": "^1.0.27",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^10.16.4",
     "gsap": "^3.12.5",
     "metadata": "^0.1.0",
     "next": "14.2.2",
@@ -41,6 +42,7 @@
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.2.2"
+    "eslint-config-next": "14.2.2",
+    "next-sitemap": "^4.2.3"
   }
 }
